@@ -1,0 +1,189 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Semi usless page</title>
+    <link rel="stylesheet" href="../style.css">
+</head>
+<body>
+<div class="DefaultTop">
+    <div class="logo">
+        <img src="../Slike/Logo1.png" alt="Logo">
+    </div>
+    <!----------------------------------------Top navigation Start---------------------------------------->
+    <div class="topnav">
+        <a class="active" href="../home.html">Home</a>
+
+        <!----------------------- Anime dropdown----------------------->
+        <div class="dropdown">
+            <button class="dropbtn">Anime
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="favourites_by_genres_anime.html">Favorites by genre</a>
+                <a href="top_5.html">Top 5</a>
+                <a href="dirty_pleasures.html">Dirty pleasures</a>
+            </div>
+        </div>
+
+        <!----------------------- Music dropdown----------------------->
+        <div class="dropdown">
+            <button class="dropbtn">Music
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Favorites by genre</a>
+                <a href="#">Audio equipment</a>
+                <a href="#">Guitar equipment</a>
+            </div>
+        </div>
+
+        <!----------------------- PC dropdown ----------------------->
+        <div class="dropdown">
+            <button class="dropbtn">PC
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Troubleshooting</a>
+                <a href="#">New hardware</a>
+                <a href="#">Fresh OS install</a>
+            </div>
+        </div>
+
+        <!----------------------- Programming dropdown ----------------------->
+        <div class="dropdown">
+            <button class="dropbtn">Programming
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Sites for learning</a>
+                <a href="#">IDEs</a>
+            </div>
+        </div>
+
+        <!----------------------- Weightlifting dropdown ----------------------->
+        <div class="dropdown">
+            <button class="dropbtn">Weightlifting
+                <i class="fa fa-caret-down"></i>
+            </button>
+            <div class="dropdown-content">
+                <a href="#">Tips</a>
+                <a href="#">DK Metalac</a>
+            </div>
+        </div>
+
+
+    </div>
+    <!-------------------------------------Top navigation End----------------------------------------------->
+
+</div>
+
+<div id="content">
+    <link rel="stylesheet" href="tab.css">
+    <h2 id="bigTitle">My favorites per genre</h2>
+    <div id="tabsDiv">
+        <div id="interview" class="contentClass">
+            <h3>Interview</h3>
+            <p>
+                Also, in Asymptotic analysis,
+                we always talk about input sizes larger
+                than a constant value. It might
+                be possible that those large inputs
+                are never given to your software and
+                an algorithm which is asymptotically
+                slower, always performs better for
+                your particular situation. So, you
+                may end up choosing an algorithm that
+                is Asymptotically slower but faster
+                for your software.
+            </p>
+        </div>
+
+        <div id="practice" class="contentClass">
+            <h3>Practice</h3>
+
+            <p>
+                Asymptotic Analysis is the big idea
+                that handles above issues in analyzing
+                algorithms. In Asymptotic Analysis, we
+                evaluate the performance of an algorithm
+                in terms of input size (we don’t measure
+                the actual running time). We calculate,
+                how does the time (or space) taken by
+                an algorithm increases with
+                the input size.
+            </p>
+        </div>
+
+        <div id="python" class="contentClass">
+            <h3>Python</h3>
+
+            <p>
+                Python is a high-level, general-purpose
+                and a very popular programming language.
+                Python programming language (latest Python 3)
+                is being used in web development, Machine
+                Learning applications, along with all
+                cutting edge technology in Software Industry.
+                Python Programming Language is very
+                well suited for Beginners, also for
+                experienced programmers with other
+                programming languages like C++ and Java.
+            </p>
+        </div>
+
+        <div id="algorithms" class="contentClass">
+            <h3>Greedy Algorithms</h3>
+
+            <p>
+                Greedy is an algorithmic paradigm
+                that builds up a solution piece by
+                piece,always choosing the next piece
+                that offers the most obvious and
+                immediate benefit. So the problems
+                where choosing locally optimal also
+                leads to global solution are best
+                fit for Greedy.
+            </p>
+        </div>
+
+        <ul class="ulClass" style="height:300px">
+            <li style="list-style-type:none;">
+                <button class="linkClass" onclick=
+                        "displayContent(event, 'interview')">
+                    Interview
+                </button>
+            </li>
+
+            <li style="list-style-type:none;">
+                <button class="linkClass" onclick=
+                        "displayContent(event, 'practice')">
+                    Practice
+                </button>
+            </li>
+
+            <li style="list-style-type:none;">
+                <button class="linkClass" onclick=
+                        "displayContent(event, 'python')">
+                    Python
+                </button>
+            </li>
+
+            <li style="list-style-type:none;">
+                <button class="linkClass" onclick=
+                        "displayContent(event, 'algorithms')">
+                    Algorithms
+                </button>
+            </li>
+        </ul>
+    </div>
+
+
+
+</div>
+
+
+<script src="../script.js"></script>
+
+</body>
+</html>

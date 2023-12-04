@@ -1,0 +1,56 @@
+* {
+    box-sizing: border-box;
+}
+
+#tabsDiv {
+    height: 600px;
+
+}
+
+#tabsDiv ul {
+    height: 300px;
+    padding: 0px 5px;
+}
+
+#tabsDiv li {
+    width: 15%;
+    height: 60px;
+}
+
+#tabsDiv button {
+    float: left;
+    border: 1px solid white;
+    background-color: #141c5b;
+}
+
+/* Button to open the content */
+#tabsDiv button {
+    display: block;
+    background-color: #141c5b;
+    color: white;
+    padding: 25px 15px;
+    width: 100%;
+    text-align: left;
+    cursor: pointer;
+}
+
+/* Button styling on mouse hover */
+#tabsDiv button:hover {
+    background-color: #6f78a5;
+    color: white;
+}
+
+#tabsDiv button.active {
+    background-color: #6f78a5;
+}
+
+/* Content for tabs*/
+.contentClass {
+    display: none;
+    position: absolute;
+    left: 18%;
+    padding: 0px 15px;
+    width: 70%;
+    border-style: none;
+    height: 300px;
+}
